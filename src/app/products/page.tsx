@@ -100,67 +100,79 @@ export default function Products() {
       name: "Free",
       price: "₹0",
       period: "month",
-      desc: "For independent tailors getting started.",
+      desc: "Perfect for individual tailors and beginners.",
       features: [
-        "50 Customers Registry",
+        "50 Customer Registry",
         "1 Employee Account",
-        "25 Inventory Items Catalog",
-        "100 Stitching Orders / Mo",
+        "25 Inventory Items",
+        "100 Stitching Orders / Month",
         "25 Custom Design Profiles",
-        "Assign Designer Module"
+        "Designer Assignment",
+        "Community Support"
       ],
       cta: "Get Started",
       popular: false
     },
     {
-      name: "Basic",
-      price: "₹199",
+      name: "Starter",
+      price: "₹399",
       period: "month",
-      desc: "For growing boutique stores & custom ateliers.",
+      desc: "Ideal for growing boutique stores.",
       features: [
-        "150 Customers Registry",
+        "500 Customer Registry",
         "5 Employee Accounts",
-        "75 Inventory Items Catalog",
+        "500 Inventory Items",
         "Unlimited Stitching Orders",
-        "75 Custom Design Profiles",
-        "Assign Designer Module"
+        "500 Design Profiles",
+        "Designer Assignment",
+        "Payment Ledger",
+        "Priority Email Support"
       ],
-      cta: "Go Basic",
+      cta: "Start Growing",
       popular: true
     },
     {
-      name: "Pro",
-      price: "₹249",
+      name: "Growth",
+      price: "₹699",
       period: "month",
-      desc: "For larger ateliers needing calendar schedules.",
+      desc: "Built for established boutiques with larger teams.",
       features: [
-        "Unlimited Customers Registry",
+        "Unlimited Customers",
         "15 Employee Accounts",
-        "150 Inventory Items Catalog",
-        "Unlimited Stitching Orders",
-        "150 Custom Design Profiles",
-        "Interactive Order Calendar",
-        "Payments Ledger & Review"
-      ],
-      cta: "Go Pro",
-      popular: false
-    },
-    {
-      name: "Premium",
-      price: "₹299",
-      period: "month",
-      desc: "The ultimate power plan with full reporting.",
-      features: [
-        "Unlimited Customers Registry",
-        "Unlimited Employees & Staff",
-        "Unlimited Inventory Catalog",
+        "Unlimited Inventory",
         "Unlimited Stitching Orders",
         "Unlimited Design Profiles",
         "Interactive Order Calendar",
-        "Payments Ledger & Review",
-        "Advanced Reports & Analytics"
+        "Payment Ledger",
+        "Sales Reports",
+        "Expense Tracking",
+        "Customer Measurement History",
+        "Priority Support"
       ],
-      cta: "Go Premium",
+      cta: "Upgrade to Growth",
+      popular: false
+    },
+    {
+      name: "Business",
+      price: "₹999",
+      period: "month",
+      desc: "Complete business management solution for boutique brands.",
+      features: [
+        "Unlimited Customers",
+        "Unlimited Employees",
+        "Unlimited Inventory",
+        "Unlimited Orders",
+        "Unlimited Design Profiles",
+        "Interactive Calendar",
+        "Advanced Reports & Analytics",
+        "Payment Ledger",
+        "Expense Management",
+        "Premium Support",
+        "Automatic Cloud Backup",
+        "Multi-Branch Ready (Coming Soon)",
+        "Early Access to New Features"
+      ],
+      cta: "Go Business",
       popular: false
     }
   ];
